@@ -1,0 +1,9 @@
+# `keyring` package does not persistently save variables. hence i need to set them as environmental variables.
+# can do this by adding environmental variables to `.bashrc`.
+
+vim .bashrc
+export PASSWORD='password123'
+
+# can display environmental variables with...
+
+echo $PASSWORD
