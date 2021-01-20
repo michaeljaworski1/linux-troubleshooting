@@ -7,3 +7,8 @@ export PASSWORD='password123'
 # can display environmental variables with...
 
 echo $PASSWORD
+
+# it looks like these environmental variables arent loaded into R session on startup. i am instead able to access them if i put them into an '.Renviron' file in my home directory.
+
+vim .Renviron
+PASSWORD='password123'
